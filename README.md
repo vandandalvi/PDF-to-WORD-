@@ -14,9 +14,17 @@ PDF TO WORD USING PYTHON
   -HTML(using Bootstrap)
 
 SETUP:
+
 Step1: Install Python
+
 Step2: Install Python Flask
+
 Step3: Intsall required Libraries
+
 Stap4: Create Vertual ENV Enveronment
+
 Step5: Setup Files sequentially
+
 Step6: Click on given port (will redirect to Default browser)
+
+
