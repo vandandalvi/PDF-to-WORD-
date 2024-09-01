@@ -6,7 +6,9 @@ PDF TO WORD USING PYTHON
 -Created Basic PDF to WORD File conversion
 
 -Key Functionalities
+
   -PDF to WORD and PDF to TXT in One GO
+  
   -Ex: Uploaded PDF want to convert it to WORD just click and Done but it will Download along with TXT File
 
 -Technology Stack
