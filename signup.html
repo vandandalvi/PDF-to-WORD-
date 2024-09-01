@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Signup Page</title>
+        <style>
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+                flex-direction: column;
+            }
+    
+            form {
+                text-align: center;
+                margin-top: 20px;
+            }
+    
+            h1 {
+                font-size: 36px;
+                font-style: bold;
+                margin-bottom: 20px;
+            }
+    
+            label {
+                display: block;
+                margin-bottom: 10px;
+            }
+    
+            input {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                box-sizing: border-box;
+            }
+    
+            button {
+                width: 100%;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>Signup</h1>
+    
+        <form class="d-flex" action="/signup" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+    
+            <button class="btn btn-outline-success mx-1" type="submit">SIGNUP</button>
+        </form>
+    
+    </body>
+    </html>
+    
+</body>
+</html>

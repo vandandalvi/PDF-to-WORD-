@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FILE CONVERTER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <p class="user-select-all">HEY !</p>    
+    <button type="button" class="btn btn-primary position-relative">
+      Profile
+      <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+        <span class="visually-hidden">New alerts</span>
+      </span>
+    </button>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menu -> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/tools">TOOLS</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">HELP</a></li>
+                <li><a class="dropdown-item" href="#">REPORT</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else ?</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Click on TOOLS to access our more features</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search" action="/login" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+    
+            <button class="btn btn-outline-success mx-1" type="submit">LOGIN</button>
+        </form>
+    
+        <p>Don't have an account? <a href="/signup">Signup</a></p>
+    
+        </div>
+      </div>
+    </nav>
+    <h1>Document Converter</h1><br><br>
+    <form action="/convert" method="post" enctype="multipart/form-data">
+      <input type="file" name="file"><br><br>
+      <button type="submit">Convert</button>
+    </form></body>
+    <br><br>
+    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+      <div class="card-header">To access more features LOGIN.</div>
+      <div class="card-body">
+        <p class="card-text">1.Higher resolution.</p>
+        <p class="card-text">2.Special Badge.</p>
+        <p class="card-text">3.More Faster.</p>
+      </div>
+  <br><br>
+</div>
+<nav aria-label="Page navigation example">
+<ul class="pagination justify-content-end">
+  <li class="page-item disabled">
+    <a class="page-link"> SATISFIED ?</a>
+  </li>
+  <li class="page-item"><a class="page-link" href="#">YES 😊</a></li>
+  <li class="page-item"><a class="page-link" href="#">NO  😭 </a></li>
+  
+  <li class="page-item">
+    
+  </li>
+</ul>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
