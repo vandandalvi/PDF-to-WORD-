@@ -12,8 +12,11 @@ PDF TO WORD USING PYTHON
   -Ex: Uploaded PDF want to convert it to WORD just click and Done but it will Download along with TXT File
 
 -Technology Stack
+
   -Python Flask
+  
   -HTML(using Bootstrap)
+  
 
 SETUP:
 
